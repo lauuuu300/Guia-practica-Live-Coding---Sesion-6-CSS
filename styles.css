@@ -1,5 +1,3 @@
-
-
 * {
     box-sizing: border-box;
 }
@@ -10,8 +8,6 @@ body {
     background-color: #f4f7fb;
     color: #2a5899;
 }
-
-
 
 .navbar {
     position: sticky;
@@ -43,8 +39,6 @@ body {
     text-decoration: none;
 }
 
-
-
 .hero {
     min-height: 65vh;
     display: flex;
@@ -74,26 +68,33 @@ body {
     line-height: 1.6;
 }
 
+.buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
 .button {
     display: inline-block;
-    margin-top: 1rem;
     padding: 0.9rem 1.2rem;
     background-color: white;
     color: #1d4ed8;
     text-decoration: none;
     border-radius: 12px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
-
+.button:hover {
+    transform: translateY(-3px);
+}
 
 .container {
     width: 92%;
     max-width: 1000px;
     margin: 2rem auto;
 }
-
-
 
 .section h2 {
     font-size: 2rem;
@@ -120,8 +121,6 @@ body {
     margin-top: 0;
 }
 
-
-
 .profile-row {
     display: flex;
     align-items: center;
@@ -143,8 +142,6 @@ body {
     line-height: 1.6;
 }
 
-
-
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -160,8 +157,6 @@ body {
     border-radius: 20px;
     font-weight: bold;
 }
-
-
 
 .footer {
     margin-top: 3rem;
