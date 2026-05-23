@@ -44,7 +44,7 @@ body {
 .hero {
     min-height: 65vh;
     display: flex;
-    justify-content: center; /* nuevo */
+    justify-content: center; 
     align-items: center;
     padding: 5vw;
     background-color: #192b5c;
@@ -74,7 +74,7 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: center; /* nuevo */
+    justify-content: center; 
     gap: 12px;
     flex-wrap: wrap;
     margin-top: 20px;
@@ -108,7 +108,7 @@ body {
 
 .cards {
     display: flex;
-    justify-content: center; /* nuevo */
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
